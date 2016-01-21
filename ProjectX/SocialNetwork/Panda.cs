@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace SocialNetwork
 {
     public enum GenderType { Male, Female };
+
     public class Panda
     {
         private string email;
