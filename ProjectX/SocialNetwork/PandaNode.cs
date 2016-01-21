@@ -27,5 +27,22 @@ namespace SocialNetwork
                 accounter = value;
             }
         }
+
+        public List<PandaNode> Friends
+        {
+            get
+            {
+                return friends;
+            }
+
+            set
+            {
+                friends = value;
+            }
+        }
+        public bool AreConnected(Panda p1, Panda p2)
+        {
+            return true;
+        }
     }
 }
