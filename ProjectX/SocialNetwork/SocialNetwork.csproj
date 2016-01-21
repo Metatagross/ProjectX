@@ -30,6 +30,7 @@
 		<WarningLevel>4</WarningLevel>
 	</PropertyGroup>
 	<ItemGroup>
+<<<<<<< HEAD
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -42,6 +43,23 @@
     <Compile Include="Panda.cs" />
     <Compile Include="PandaNode.cs" />
     <Compile Include="PandaSocialNetwork.cs" />
+=======
+		<Reference Include="System"/>
+		
+		<Reference Include="System.Core"/>
+		<Reference Include="System.Xml.Linq"/>
+		<Reference Include="System.Data.DataSetExtensions"/>
+		
+		
+		<Reference Include="Microsoft.CSharp"/>
+ 		
+		<Reference Include="System.Data"/>
+		<Reference Include="System.Xml"/>
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="Class1.cs" />
+
+>>>>>>> origin/master
 		<Compile Include="Properties\AssemblyInfo.cs" />
 	</ItemGroup>
 	<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
@@ -52,4 +70,8 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
  </Project>
